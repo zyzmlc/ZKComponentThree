@@ -1,0 +1,6 @@
+framework module ZKComponent {
+  umbrella header "ZKComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

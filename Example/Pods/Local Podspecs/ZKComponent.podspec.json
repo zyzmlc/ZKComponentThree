@@ -1,0 +1,22 @@
+{
+  "name": "ZKComponent",
+  "version": "0.1.0",
+  "summary": "A short description of ZKComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zk/ZKComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zk": "643793524@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zk/ZKComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZKComponent/Classes/**/*"
+}

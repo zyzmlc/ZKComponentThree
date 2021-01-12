@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'ZKComponentThree_Example' do
   pod 'ZKComponentThree', :path => '../'
+  pod 'ZKComponent', :path => '../ZKComponent'
 
   target 'ZKComponentThree_Tests' do
     inherit! :search_paths

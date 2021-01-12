@@ -1,0 +1,39 @@
+{
+  "name": "ZKComponentThree",
+  "version": "0.1.0",
+  "summary": "A short description of ZKComponentThree.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zk/ZKComponentThree",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zk": "643793524@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zk/ZKComponentThree.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZKComponentThree/Classes/**/*",
+  "resource_bundles": {
+    "ZKComponentThree": [
+      "ZKComponentThree/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"Masonry.h\"",
+    "#import \"AFNetworking.h\""
+  ]
+}

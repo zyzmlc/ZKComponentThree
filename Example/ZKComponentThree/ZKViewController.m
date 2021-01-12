@@ -7,6 +7,8 @@
 //
 
 #import "ZKViewController.h"
+#import <ZKComponentThree.h>
+#import <ZKMacros.h>
 
 @interface ZKViewController ()
 
@@ -18,6 +20,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    ZKAddTest *add = [ZKAddTest new];
+    NSLog(@"%zd", [add addFromOneNumber:20 twoNumber:10]);
+    
+    
+}
+- (IBAction)buttonClick:(id)sender {
+    ZKThreeViewController *threeVC = [ZKThreeViewController new];
+    threeVC.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController pushViewController:threeVC animated:YES];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

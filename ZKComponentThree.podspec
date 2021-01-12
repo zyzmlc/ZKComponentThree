@@ -32,11 +32,19 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ZKComponentThree/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZKComponentThree' => ['ZKComponentThree/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'ZKComponentThree' => ['ZKComponentThree/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # 1：组件中引入其他的第三方。
+   s.dependency 'AFNetworking'
+   s.dependency 'Masonry'
+   
+   # 2：组件中引入 头文件
+   s.prefix_header_contents = '#import "Masonry.h"', '#import "AFNetworking.h"'
+
 end
